@@ -1,6 +1,8 @@
 try:
 
-	class CreateProgramingLang:		def __init__(self):
+	class CreateProgramingLang:		
+		
+		def __init__(self):
 
 			pass
 
@@ -28,13 +30,13 @@ try:
 
 				return self.co[num]
 
-			def run(self, code:str):
+			def run(self, code:str, lines:str, words:str):
 
-				code = code.split("\n")
+				code = code.split(line)
 
 				for cod1 in code:
 
-					cod = cod1.split(" ")
+					cod = cod1.split(words)
 
 					n = 0
 
